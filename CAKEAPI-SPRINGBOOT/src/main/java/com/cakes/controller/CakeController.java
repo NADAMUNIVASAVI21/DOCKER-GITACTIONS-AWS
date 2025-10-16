@@ -8,7 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/")
-@CrossOrigin(origins = "http://localhost:5173") // React dev port
+@CrossOrigin(origins = "*") // React dev port
 public class CakeController {
 
     @Autowired
